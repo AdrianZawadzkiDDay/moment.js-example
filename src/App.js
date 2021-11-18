@@ -48,11 +48,7 @@ function DateDetails({ date, format }) {
 
   const nextFridayDate = moment(theDate);
 
-  //  if (theDate.isoWeekday() >= 5) {
-  //    nextFridayDate.add(12 - theDate.isoWeekday(), "days").add(2, "weeks");
-  //  } else if (theDate.isoWeekday() < 5) {
-  //    nextFridayDate.add(5 - theDate.isoWeekday(), "days").add(2, "weeks");
-  //  }
+
 
   nextFridayDate
     .add(5 - theDate.isoWeekday(), "days")

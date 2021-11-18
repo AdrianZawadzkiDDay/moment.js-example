@@ -1,4 +1,4 @@
-![CHEESE!](romanC.png)
+![CHEESE!](moment.jpg)
 
 # Getting Started with Create React App
 
